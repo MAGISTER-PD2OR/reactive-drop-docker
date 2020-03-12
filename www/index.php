@@ -101,6 +101,7 @@ class Translation
     }
 }
 
+// some defaults to test with
 $text = $_REQUEST['input'] ?? 'Bonjour';
 $lang = $_REQUEST['target'] ?? 'en';
 
